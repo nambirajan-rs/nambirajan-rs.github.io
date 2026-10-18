@@ -18,10 +18,10 @@ Personal portfolio website. Plain HTML/CSS/JS with no build step.
 4. Update the resume: replace `resume.pdf` with the new file, keeping the same name.
 
 ## Publish free on GitHub Pages
-1. Go to GitHub, click **New repository**, and name it exactly **`Believe58.github.io`**. Make it Public and create it.
+1. Go to GitHub, click **New repository**, and name it exactly **`nambirajan-rs.github.io`**. Make it Public and create it.
 2. Click **uploading an existing file**, drag in every file from this folder, and click **Commit changes**.
 3. Go to **Settings → Pages → Build and deployment** and set Source to *Deploy from a branch*, Branch to `main` / `(root)`. Save.
-4. After about 1–2 minutes the site is live at **https://believe58.github.io**
+4. After about 1–2 minutes the site is live at **https://nambirajan-rs.github.io**
 
 To update later, open the repo, select **Add file → Upload files**, upload the changed file (e.g. `data.js`), and commit. The site refreshes in about a minute.
 
@@ -32,6 +32,6 @@ git init
 git add .
 git commit -m "Portfolio website"
 git branch -M main
-git remote add origin https://github.com/Believe58/Believe58.github.io.git
+git remote add origin https://github.com/nambirajan-rs/nambirajan-rs.github.io.git
 git push -u origin main
 ```

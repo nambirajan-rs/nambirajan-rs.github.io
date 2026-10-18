@@ -24,7 +24,7 @@ const PORTFOLIO = {
   email: "nambirajan5821@gmail.com",
   phone: "", // e.g. "+91 9xxxxxxxxx". Left empty on purpose: a public site attracts spam calls.
   linkedin: "https://www.linkedin.com/in/nambirajan-r-s-b6a0b3203",
-  github: "https://github.com/Believe58",
+  github: "https://github.com/nambirajan-rs",
   resume: "resume.pdf", // put your PDF in this folder with this exact name
   photo: "photo.png", // square image in this folder. Set to "" to show your initials instead.
 
@@ -104,7 +104,7 @@ const PORTFOLIO = {
       description:
         "A machine learning web app that classifies uploaded financial documents as invoices or bank statements, with a full train → predict → serve pipeline.",
       tech: ["Python", "Machine Learning", "Flask", "NLP"],
-      github: "https://github.com/Believe58/document-classifier-ai",
+      github: "https://github.com/nambirajan-rs/document-classifier-ai",
       demo: "",
     },
     {
