@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nambirajan R S</title>
+  <meta name="description" content="Nambirajan R S: aspiring Data Scientist and RPA developer with 3+ years building LLM, OCR and automation solutions for enterprise clients." />
+  <meta property="og:title" content="Nambirajan R S | Data Science & Intelligent Automation" />
+  <meta property="og:description" content="M.Sc. Data Science (Dept. Topper) · 3+ years in AI-powered automation · Python, ML, NLP, RPA, LLMs." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0e17" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2322d3ee'/><text x='32' y='42' font-family='Arial' font-weight='700' font-size='26' text-anchor='middle' fill='%230a0e17'>NR</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" id="logo">NR<span>.</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme"></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="badge reveal"><span class="dot"></span><span id="openTo"></span></p>
+          <h1 class="reveal">Hi, I'm <span class="grad" id="heroName"></span></h1>
+          <p class="hero-role reveal"><span class="mono">&gt;</span> <span id="typed"></span><span class="caret">|</span></p>
+          <p class="hero-tagline reveal" id="tagline"></p>
+          <div class="hero-cta reveal" id="heroCta"></div>
+          <div class="hero-social reveal" id="heroSocial"></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="avatar-ring"><div class="avatar" id="avatar"></div></div>
+          <div class="code-card">
+            <div class="code-head"><i></i><i></i><i></i><span>pipeline.py</span></div>
+<pre><code><span class="k">def</span> <span class="f">automate</span>(doc):
+    text  = ocr.read(doc)
+    data  = llm.extract(text)
+    label = model.predict(data)
+    <span class="k">return</span> workflow.run(label)</code></pre>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="num">01.</span> About me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal" id="aboutText"></div>
+          <div class="stats reveal" id="stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="num">02.</span> Skills</h2>
+        <div class="skills-grid" id="skillsGrid"></div>
+        <div class="learning reveal">
+          <h3><span class="pulse"></span> Currently learning</h3>
+          <div class="learning-list" id="learningList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="num">03.</span> Experience</h2>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="num">04.</span> Projects</h2>
+        <div class="filters reveal" id="filters">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="ds">Data Science & AI</button>
+          <button data-filter="automation">Automation & RPA</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="num">05.</span> Education & Certifications</h2>
+        <div class="edu-grid">
+          <div id="eduList"></div>
+          <div class="certs reveal" id="certList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title center reveal"><span class="num">06.</span> Let's work together</h2>
+        <p class="contact-text reveal">I'm actively looking for opportunities in <strong>Data Science</strong> and <strong>RPA development</strong>. Whether you have a role, a project or just a question, my inbox is open.</p>
+        <div class="contact-cards reveal" id="contactCards"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & built by <span id="footName"></span> · © <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
