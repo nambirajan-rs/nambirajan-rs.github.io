@@ -11,14 +11,14 @@ const PORTFOLIO = {
   initials: "NR",
   // Rotating titles in the hero (first one shows first). Order = your priorities.
   roles: [
-    "Aspiring Data Scientist",
+    "Hyperautomation Engineer",
+    "AI / ML Automation",
     "RPA Developer",
-    "Intelligent Automation Engineer",
   ],
   tagline:
-    "I build systems that read, understand and act on data, from LLM-powered document extraction to end-to-end automation pipelines.",
+    "I embed AI directly into automation: RPA bots, BPMN workflows and LLM-powered document processing, integrated with SAP, Dynamics 365 and REST APIs.",
   location: "Trichy, Tamil Nadu, India",
-  openTo: "Open to Data Science & RPA roles",
+  openTo: "Open to Automation, AI/ML & RPA roles",
 
   // ---------- LINKS ----------
   email: "nambirajan5821@gmail.com",
@@ -30,65 +30,76 @@ const PORTFOLIO = {
 
   // ---------- ABOUT ----------
   about: [
-    "I'm a Data Science postgraduate (M.Sc., Department Topper) with 3+ years of professional experience building AI-driven automation for enterprise clients in insurance, telecom, retail and utilities.",
-    "At Bautomate, I work where data meets automation: designing BPMN workflows, writing Camunda script tasks, and integrating OCR and LLMs to turn messy invoices, bills and policy documents into clean, validated, structured data.",
-    "Now I'm channelling that real-world experience into Data Science and Machine Learning, building models that don't just predict, but plug into the business processes that use them.",
+    "I'm an Automation Engineer with 3+ years of hands-on experience designing and delivering end-to-end automation for enterprise clients across utilities, telecom, healthcare, compliance, manufacturing and finance.",
+    "My solutions embed AI directly into RPA execution paths, combining Power Automate and in-house Bautomate RPA bots with BPMN / Camunda workflows, Intelligent Document Processing (OCR + LLM extraction) and Python, integrated with SAP, Microsoft Dynamics 365, SharePoint and REST APIs.",
+    "I use Claude (Anthropic) as a primary tool for AI-assisted development and LLM integration, backed by an M.Sc. in Data Science with a strong foundation in machine learning and NLP. I'm currently studying for the AWS Prompt Engineering certification.",
   ],
   stats: [
     { value: "3+", label: "Years of experience" },
-    { value: "4", label: "Industries automated" },
-    { value: "#1", label: "Dept. Topper, M.Sc. DS" },
-    { value: "6", label: "Certifications" },
+    { value: "7", label: "Industries automated" },
+    { value: "7", label: "Enterprise client projects" },
+    { value: "#1", label: "Dept. Topper, B.Sc. CS" },
   ],
 
   // ---------- SKILLS ----------
   // Only list what you can confidently discuss in an interview.
   skills: [
     {
-      category: "Data Science & ML",
-      icon: "chart",
-      items: ["Python", "Pandas", "NumPy", "Machine Learning", "NLP", "Deep Learning", "Data Analysis"],
-    },
-    {
-      category: "AI & Document Intelligence",
-      icon: "spark",
-      items: ["LLM-Integrated Extraction", "OCR: Tesseract", "OCR: PaddleOCR", "Document Classification", "Signature Detection"],
-    },
-    {
-      category: "RPA & Process Automation",
+      category: "RPA Platforms",
       icon: "bot",
-      items: ["UiPath", "Automation Anywhere", "BPMN 2.0", "Camunda BPM", "Form.io", "Document Management (DMS)"],
+      items: ["Microsoft Power Automate", "Bautomate RPA (in-house)", "Web-Portal Automation", "SAP Automation", "Unattended 24×7 Bots", "Scheduling & Exception Handling"],
+    },
+    {
+      category: "AI / ML & GenAI",
+      icon: "spark",
+      items: ["LLM-Based Document Extraction", "Claude (Anthropic)", "Prompt Engineering", "Intelligent Document Processing", "OCR: Tesseract", "OCR: PaddleOCR", "Document Classification", "NLP"],
+    },
+    {
+      category: "Workflow & BPM",
+      icon: "workflow",
+      items: ["BPMN 2.0", "Camunda BPM (Groovy / JavaScript)", "Config-Driven Validation Rules", "Human-in-the-Loop Review", "Form.io"],
     },
     {
       category: "Programming & Data",
       icon: "code",
-      items: ["Python", "Groovy", "JavaScript (Nashorn / GraalJS)", "SQL", "NoSQL", "JSON", "MS Business Central Integration"],
+      items: ["Python", "JavaScript", "Groovy", "SQL", "NoSQL", "JSON Schemas", "Excel Reporting", "Dashboards"],
+    },
+    {
+      category: "Integration",
+      icon: "external",
+      items: ["REST APIs", "SAP", "Microsoft Dynamics 365", "Business Central", "SharePoint", "Document Management (DMS)"],
+    },
+    {
+      category: "Data Science & ML",
+      icon: "chart",
+      items: ["Machine Learning", "NLP", "Pandas", "NumPy", "Data Analysis"],
     },
   ],
 
   // Things you're studying now. Move an item into "skills" once you've built a project with it.
   learning: [
+    { name: "AWS Prompt Engineering Certification", status: "In progress" },
     { name: "Retrieval-Augmented Generation (RAG)", status: "In progress" },
-    { name: "LangChain / LlamaIndex", status: "In progress" },
+    { name: "LangChain / LlamaIndex", status: "Up next" },
     { name: "Vector Databases (FAISS, ChromaDB)", status: "Up next" },
-    { name: "MLOps & Model Deployment", status: "Up next" },
   ],
 
   // ---------- EXPERIENCE ----------
   experience: [
     {
-      role: "Process Automation Engineer",
-      company: "Vinga Software Solutions Pvt Ltd (Bautomate)",
+      role: "Process Automation Engineer (Solution Trainee)",
+      company: "SMI Tech Solutions (formerly Techmango Solutions – Bautomate)",
       period: "Jul 2023 – Present",
-      summary: "Bautomate is an enterprise hyperautomation platform combining BPM, RPA, OCR and LLMs.",
+      summary: "Aptimeta: an enterprise BPM + RPA + OCR + LLM hyperautomation platform.",
       points: [
-        "Design and maintain BPMN-based workflows integrating RPA, AI-powered OCR and LLM-driven content extraction for enterprise clients.",
-        "Own script-task development and production debugging in Camunda BPM (Groovy / JavaScript / Nashorn) for an insurance policy onboarding pipeline: checkpoint validation, signature-detection enrichment and audit-report generation.",
-        "Resolved a Java/GraalJS interop defect in Jackson ObjectMapper deep copies by building custom map-key helper functions, restoring reliable enumeration in downstream scripts.",
-        "Re-engineered a document extraction script to parse and flatten page-keyed JSON output, with backward-compatible fallbacks for legacy data formats.",
-        "Fixed a variable-scoping defect in an Excel compliance audit report generator that caused systematic column misalignment.",
-        "Built Form.io UAT forms and resolved DMS datagrid download failures and conditional-visibility bugs in calculated fields.",
-        "Delivered a data deduplication workflow for Malaysian utility billing (TNB) JSON records to improve downstream data quality.",
+        "Deliver end-to-end hyperautomation solutions for enterprise clients in Malaysia, India and other markets, owning process analysis, solution design, bot development, UAT, deployment and production support.",
+        "Embed AI into RPA execution paths: LLM- and OCR-based extraction of unstructured documents, Python-based classification and rule-driven validation that feeds automated decisions and ERP postings.",
+        "Integrate bots with SAP, Microsoft Dynamics 365, Business Central, SharePoint and external REST APIs using structured JSON payloads.",
+        "Build reusable, configuration-driven components (validation rules, extraction layouts, report templates) so business users can change logic without code changes.",
+        "Use Claude (Anthropic) for AI-assisted development: designing optimized workflows, generating and reviewing scripts, and accelerating API and LLM integrations.",
+        "Own script-task development and production debugging in Camunda BPM (Groovy / JavaScript / Nashorn), including an insurance onboarding pipeline (checkpoint validation, signature detection, audit reports).",
+        "Resolved complex production defects: a Java / GraalJS interop issue in Jackson ObjectMapper deep copies and a variable-scoping defect in an Excel audit report generator.",
+        "Re-engineered page-keyed JSON extraction parsing with backward-compatible fallbacks, built a deduplication workflow for Malaysian (TNB) utility billing records, and fixed Form.io / DMS datagrid and conditional-visibility issues.",
       ],
     },
   ],
@@ -97,6 +108,76 @@ const PORTFOLIO = {
   // category: "ds" (Data Science & AI) or "automation" (Automation & RPA)
   // github / demo: leave "" to hide the button. Only link repos that contain code!
   projects: [
+    {
+      title: "Utility Bill Automation with SAP Posting",
+      category: "automation",
+      type: "Client: SEGI Group (Malaysia)",
+      description:
+        "Web-portal RPA bots detect and download new utility bills, OCR / LLM-based IDP extracts the content into JSON, Excel and dashboard reports, and a human-in-the-loop review stage lets users comment before the bot posts approved entries into SAP.",
+      tech: ["RPA", "OCR / LLM IDP", "SAP", "Human-in-the-Loop"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "Utility Bill Automation with Dynamics 365",
+      category: "automation",
+      type: "Client: Emart (Malaysia)",
+      description:
+        "Automated utility bill retrieval from web portals, stored files in SharePoint via API, extracted bill data into consolidated reports and posted entries to the Dynamics 365 Purchase Journal through REST APIs.",
+      tech: ["RPA", "SharePoint", "D365 API", "REST"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "AI-Driven Compliance Audit Platform",
+      category: "ds",
+      type: "Client: Aparajitha",
+      description:
+        "Processes multiple source documents per audit (Muster Roll, Wage Register, PF, ESI and more) with Python document and domain classification ahead of LLM extraction, multi-level validation, and a high-volume workflow designed with Claude. All validation rules are configuration-driven.",
+      tech: ["LLM", "Python", "BPMN", "Classification"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "EB Bill Extraction & Master Data Reconciliation",
+      category: "ds",
+      type: "Client: Indus Towers",
+      description:
+        "Extracts data from high volumes of electricity bills using a configurable, LLM-enhanced content-capture layout, then compares values against master data with calculation and compliance checks that flag mismatches for review.",
+      tech: ["LLM IDP", "Validation Rules", "Reconciliation"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "Patient Registration & Insurance Eligibility",
+      category: "automation",
+      type: "Client: Tadawi",
+      description:
+        "Classifies new vs. existing patients, automates registration, visit creation and invoicing, and checks insurance eligibility across 5–10 insurer portals with RPA and web scraping to determine the covered amount.",
+      tech: ["RPA", "Web Scraping", "Healthcare"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "SAP Inventory Automation",
+      category: "automation",
+      type: "Client: Coats",
+      description:
+        "Unattended bots running 24×7 automate manual SAP inventory processes, with scheduling and exception handling so the process runs continuously with minimal human intervention.",
+      tech: ["RPA", "SAP GUI", "Unattended Bots"],
+      github: "",
+      demo: "",
+    },
+    {
+      title: "Bookkeeping & Reconciliation Automation",
+      category: "automation",
+      type: "Client: AccSource",
+      description:
+        "RPA bots orchestrated through BPMN flows automate bookkeeping and reconciliation, improving accuracy, reducing manual errors and saving significant processing time for the finance team.",
+      tech: ["RPA", "BPMN", "Finance"],
+      github: "",
+      demo: "",
+    },
     {
       title: "AI Document Classifier",
       category: "ds",
@@ -127,46 +208,6 @@ const PORTFOLIO = {
       github: "", // repo is empty: push code, then paste the link here
       demo: "",
     },
-    {
-      title: "LLM-Enhanced Document Data Extraction",
-      category: "automation",
-      type: "Client: Indus Tower",
-      description:
-        "Configurable content-capture layout for invoices, bills and telecom documents, integrating LLMs to boost extraction accuracy, with automated result calculation and compliance validation.",
-      tech: ["LLMs", "OCR", "BPMN", "Validation Rules"],
-      github: "",
-      demo: "",
-    },
-    {
-      title: "End-to-End Invoice & Billing Automation",
-      category: "automation",
-      type: "Client: EMart24",
-      description:
-        "RPA bots download bills, BPMN workflows process invoices into structured JSON, and the pipeline syncs directly with Microsoft Business Central.",
-      tech: ["RPA", "BPMN", "JSON", "MS Business Central"],
-      github: "",
-      demo: "",
-    },
-    {
-      title: "Insurance Policy Onboarding Pipeline",
-      category: "automation",
-      type: "Client: Insurance",
-      description:
-        "Camunda-driven onboarding workflow with checkpoint validation, signature-detection enrichment and automated Excel compliance audit reports.",
-      tech: ["Camunda BPM", "Groovy", "JavaScript", "Excel Reporting"],
-      github: "",
-      demo: "",
-    },
-    {
-      title: "Utility Billing Data Deduplication",
-      category: "automation",
-      type: "Client: TNB Malaysia",
-      description:
-        "Deduplication workflow for large volumes of utility billing JSON records, improving data quality for downstream analytics and processing.",
-      tech: ["Data Quality", "JSON", "Workflow Automation"],
-      github: "",
-      demo: "",
-    },
   ],
 
   // ---------- EDUCATION ----------
@@ -175,26 +216,27 @@ const PORTFOLIO = {
       degree: "M.Sc. Data Science",
       school: "Bishop Heber College, Trichy",
       period: "2021 – 2023",
-      detail: "CGPA 8.2 / 10 · Department Topper",
+      detail: "CGPA 8.2 / 10",
     },
     {
       degree: "B.Sc. Computer Science",
       school: "Bishop Heber College, Trichy",
       period: "2018 – 2021",
-      detail: "CGPA 8.87 / 10",
+      detail: "CGPA 8.87 / 10 · Department Topper",
     },
   ],
 
   // ---------- CERTIFICATIONS ----------
   // Add "link" with a credential URL if you have one, e.g. link: "https://coursera.org/verify/..."
   certifications: [
+    { name: "AWS Prompt Engineering", issuer: "Amazon Web Services", year: "In progress", link: "" },
     { name: "Certification in UiPath", issuer: "UiPath", year: "2022", link: "" },
+    { name: "Introduction to Natural Language Processing", issuer: "Great Learning", year: "2022", link: "" },
     { name: "Data Science for Business Innovation", issuer: "Coursera", year: "2022", link: "" },
     { name: "Code Free Data Science", issuer: "Coursera", year: "2022", link: "" },
-    { name: "Introduction to Natural Language Processing", issuer: "Great Learning", year: "2022", link: "" },
     { name: "Introduction to NumPy Bootcamp", issuer: "DPhi", year: "2022", link: "" },
     { name: "Python for Beginners", issuer: "SoloLearn", year: "2021", link: "" },
   ],
 
-  languages: ["Tamil", "English"],
+  languages: ["English", "Tamil"],
 };
