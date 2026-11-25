@@ -26,7 +26,7 @@ const PORTFOLIO = {
   linkedin: "https://www.linkedin.com/in/nambirajan-r-s-b6a0b3203",
   github: "https://github.com/nambirajan-rs",
   resume: "resume.pdf", // put your PDF in this folder with this exact name
-  photo: "photo.png", // square image in this folder. Set to "" to show your initials instead.
+  photo: "photo.jpg", // square image in this folder. Set to "" to show your initials instead.
 
   // ---------- ABOUT ----------
   about: [
