@@ -183,7 +183,7 @@ const PORTFOLIO = {
       category: "ds",
       type: "Personal project",
       description:
-        "A machine learning web app that classifies uploaded financial documents as invoices or bank statements, with a full train → predict → serve pipeline.",
+        "A machine learning web app that classifies uploaded financial documents as invoices or bank statements, with a full train → predict → serve pipeline trained on synthetic data.",
       tech: ["Python", "Machine Learning", "Flask", "NLP"],
       github: "https://github.com/nambirajan-rs/document-classifier-ai",
       demo: "",
@@ -193,9 +193,9 @@ const PORTFOLIO = {
       category: "ds",
       type: "Academic project",
       description:
-        "Deep learning model to classify and detect skin lesions from dermoscopic images, supporting early screening of skin cancer.",
-      tech: ["Python", "Deep Learning", "CNN", "Computer Vision"],
-      github: "", // repo is empty: push code, then paste the link here
+        "Classifies dermoscopic skin-lesion images as benign or malignant, comparing a custom CNN (85.8% accuracy, 0.93 malignant recall) with VGG16, VGG19 and InceptionV3 transfer learning.",
+      tech: ["Python", "TensorFlow", "CNN", "Transfer Learning"],
+      github: "https://github.com/nambirajan-rs/skin-lesion-classification",
       demo: "",
     },
     {
@@ -205,7 +205,17 @@ const PORTFOLIO = {
       description:
         "NLP pipeline that cleans and vectorises tweets and uses Logistic Regression to identify whether a tweet is about a real disaster.",
       tech: ["Python", "NLP", "Logistic Regression", "Text Preprocessing"],
-      github: "", // repo is empty: push code, then paste the link here
+      github: "https://github.com/nambirajan-rs/disaster-tweets-nlp",
+      demo: "",
+    },
+    {
+      title: "Water Potability Prediction",
+      category: "ds",
+      type: "Academic project",
+      description:
+        "Compares 7 classifiers on water-quality data and serves a Random Forest pipeline (imputation + scaling + model) through a Flask app, with leakage-free evaluation.",
+      tech: ["Python", "scikit-learn", "Random Forest", "Flask"],
+      github: "https://github.com/nambirajan-rs/Water-potability-prediction",
       demo: "",
     },
   ],
